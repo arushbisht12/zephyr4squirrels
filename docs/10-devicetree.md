@@ -158,7 +158,7 @@ if (gpio_is_ready_dt(&sw1)) {
 }
 ```
 
-Rebuild — `sw1 label` should now print `button middle`, read straight out
+Rebuild from scratch with -p always to clear the cached devicetree — `sw1 label` should now print `button middle`, read straight out
 of the node your overlay just aliased.
 
 ## Try it yourself
